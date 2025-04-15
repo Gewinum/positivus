@@ -51,9 +51,11 @@ header {
 }
 
 header img {
-    width: auto;
+    width: 220px;
     height: auto;
     align-self: center;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
 }
 
 header a {
