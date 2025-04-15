@@ -140,6 +140,7 @@ nav {
     padding: 10px;
     align-items: center;
     gap: 2vw;
+    float: none;
 }
 
 .subheader p {
@@ -790,14 +791,21 @@ nav {
 }
 
 #see-team-button {
-    float: right;
+    margin-top: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 30px;
     margin-right: calc(50vw - 720px + 30px);
 }
 
 @media (max-width: 1280px) {
-    #see-team-button {
-        float: initial;
+    .button-container {
+        display: initial;
+        justify-content: initial;
+        margin-right: 0;
     }
     h1 {
         font-size: 43px;
