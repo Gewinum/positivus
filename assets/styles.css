@@ -42,7 +42,7 @@ body {
 
 header {
     display: flex;
-    margin: 5.2vh auto auto;
+    margin: 1vh auto auto;
     max-width: min(1400px, 100vw);
     padding: 10px;
     height: 68px;
