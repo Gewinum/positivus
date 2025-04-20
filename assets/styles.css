@@ -28,6 +28,10 @@ p {
     font-weight: 400;
 }
 
+textarea, input {
+    box-sizing: border-box;
+}
+
 button {
     font-size: 20px;
 }
@@ -803,6 +807,10 @@ nav {
     margin-right: calc(50vw - 720px + 30px);
 }
 
+.footer {
+    margin-top: 5.2vh;
+}
+
 @media (max-width: 1280px) {
     .button-container {
         display: initial;
@@ -947,12 +955,17 @@ nav {
         width: 90%;
     }
 
+    .contact-us {
+        padding: 70px 0;
+    }
+
     .contact-us img {
         display: none;
     }
 
     .contact-us form {
-        width: 90%;
+        width: 100%;
+        margin: 0 1px;
     }
 
     .footer-top, .footer-middle, .footer-bottom {
@@ -973,7 +986,7 @@ nav {
 
     .newsletter-input {
         margin: 10px 0 0 0;
-        width: 90%;
+        width: 100%;
     }
 
     .subscribe-btn {
